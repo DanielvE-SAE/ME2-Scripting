@@ -57,7 +57,8 @@ function startGame()
             clearInterval(gameTimer);
             clearInterval(gameTimer);
             target.style.display = 'none';
-            alert(`Game Over! Total score: ${score}`);
+            alert(`Game Over! Total score: ${score}`); window.location = './index.html';
+            
         }
     }, 1000);
 }
